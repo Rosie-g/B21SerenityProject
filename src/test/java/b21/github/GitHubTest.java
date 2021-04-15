@@ -6,6 +6,7 @@ import net.serenitybdd.rest.Ensure;
 import net.serenitybdd.rest.SerenityRest;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 //import static io.restassured.RestAssured.*;
@@ -55,6 +56,7 @@ public class GitHubTest {
 
     }
 
+    @DisplayName("Test GET /users/{user_id} endpoint")
     @Test
     public void testGitHubUser3() {
 
